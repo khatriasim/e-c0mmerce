@@ -8,7 +8,6 @@ const ProductCard = ({product}) => {
 <h3>Name:{product.name}</h3>
 <p>Price: ${product.price}</p>
  <div className="quantity-selector gap-9 flex">
-          <button>-</button>
           <span>1</span>
           <button>+</button>
         </div>
