@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Expresso",
+    "price": 3.50,
+    "image": "/src/images/expresso.jpg",
+    "description": "Strong black coffee"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "price": 4.00,
+    "image": "/src/images/cappuccino.jpg",
+    "description": "Espresso with steamed milk"
+  }
+]
