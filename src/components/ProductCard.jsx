@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product, addToCart}) => {
 
 const [quantity, setquantity] = useState(1)
 
@@ -30,7 +30,8 @@ const increaseitem = () =>{
           <Link to={`/product/${product.id}`}>
           <button>View Details</button>
           </Link>
-        <button className=''>Add to cart</button>
+      <button onClick={() => addToCart(product, quantity)}>Add To Cart</button>
+
     </div>
     
   )
